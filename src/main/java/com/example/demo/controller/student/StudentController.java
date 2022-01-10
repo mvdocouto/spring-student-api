@@ -1,10 +1,11 @@
-package com.example.demo.student;
+package com.example.demo.controller.student;
 
 
+import com.example.demo.entity.student.Student;
+import com.example.demo.service.student.StudentService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
-import javax.websocket.server.PathParam;
 import java.util.List;
 
 @RestController
